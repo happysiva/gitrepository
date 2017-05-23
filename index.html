@@ -86,448 +86,61 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为<code>GitHub Flavored Markdown</code>。简称<code>GFM</code>，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。</p>
-<hr>
-<h3 id="Author-果冻虾仁"><a href="#Author-果冻虾仁" class="headerlink" title="Author:果冻虾仁"></a>Author:果冻虾仁</h3><h3 id="E-mail-Jelly-K-Wang-qq-com"><a href="#E-mail-Jelly-K-Wang-qq-com" class="headerlink" title="E-mail:Jelly.K.Wang@qq.com"></a>E-mail:Jelly.K.Wang@qq.com</h3><hr>
-<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
-<li><a href="#横线">横线</a></li>
-<li><a href="#标题">标题</a></li>
-<li><a href="#文本">文本</a><ul>
-<li>普通文本</li>
-<li>单行文本</li>
-<li>多行文本</li>
-<li>文字高亮</li>
-<li>换行</li>
-<li>斜体</li>
-<li>粗体</li>
-<li>删除线</li>
-</ul>
-</li>
-<li><a href="#图片">图片</a><ul>
-<li>来源于网络的图片</li>
-<li>GitHub仓库中的图片</li>
-</ul>
-</li>
-<li><a href="#链接">链接</a> <ul>
-<li>文字超链接<ul>
-<li>链接外部URL</li>
-<li>链接本仓库里的URL</li>
-</ul>
-</li>
-<li>锚点</li>
-<li><a href="#图片链接">图片链接</a></li>
-</ul>
-</li>
-<li><a href="#列表">列表</a><ul>
-<li>无序列表</li>
-<li>有序列表</li>
-<li>复选框列表</li>
-</ul>
-</li>
-<li><a href="#块引用">块引用</a></li>
-<li><a href="#代码高亮">代码高亮</a></li>
-<li><a href="#表格">表格</a> </li>
-<li><a href="#表情">表情</a></li>
-<li><a href="#diff语法">diff语法</a></li>
-</ul>
-<h3 id="横线"><a href="#横线" class="headerlink" title="横线"></a>横线</h3><hr>
-<p><em>*</em>、—、___可以显示横线效果</p>
-<h2 id=""><a href="#" class="headerlink" title="*"></a><em>*</em></h2><hr>
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="文本"><a href="#文本" class="headerlink" title="文本"></a>文本</h2><h3 id="普通文本"><a href="#普通文本" class="headerlink" title="普通文本"></a>普通文本</h3><p>这是一段普通的文本</p>
-<h3 id="单行文本"><a href="#单行文本" class="headerlink" title="单行文本"></a>单行文本</h3><pre><code>Hello,大家好，我是果冻虾仁。
-</code></pre><p>在一行开头加入1个Tab或者4个空格。</p>
-<h3 id="文本块"><a href="#文本块" class="headerlink" title="文本块"></a>文本块</h3><h4 id="语法1"><a href="#语法1" class="headerlink" title="语法1"></a>语法1</h4><p>在连续几行的文本开头加入1个Tab或者4个空格。</p>
-<pre><code>欢迎到访
-很高兴见到您
-祝您，早上好，中午好，下午好，晚安
-</code></pre><h4 id="语法2"><a href="#语法2" class="headerlink" title="语法2"></a>语法2</h4><p>使用一对各三个的反引号：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">欢迎到访</div><div class="line">我是C++码农</div><div class="line">你可以在知乎、CSDN、简书搜索【果冻虾仁】找到我</div></pre></td></tr></table></figure></p>
-<p>该语法也可以实现代码高亮，见<a href="#代码高亮">代码高亮</a></p>
-<h3 id="文字高亮"><a href="#文字高亮" class="headerlink" title="文字高亮"></a>文字高亮</h3><p>文字高亮功能能使行内部分文字高亮，使用一对反引号。<br>语法：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">`linux` `网络编程` `socket` `epoll`</div></pre></td></tr></table></figure></p>
-<p>效果：<code>linux</code> <code>网络编程</code> <code>socket</code> <code>epoll</code></p>
-<p>也适合做一篇文章的tag</p>
-<h4 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h4><p>直接回车不能换行，<br>可以在上一行文本后面补两个空格，<br>这样下一行的文本就换行了。</p>
-<p>或者就是在两行文本直接加一个空行。</p>
-<p>也能实现换行效果，不过这个行间距有点大。</p>
-<h4 id="斜体、粗体、删除线"><a href="#斜体、粗体、删除线" class="headerlink" title="斜体、粗体、删除线"></a>斜体、粗体、删除线</h4><table>
-<thead>
-<tr>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>*斜体1*</code></td>
-<td><em>斜体1</em></td>
-</tr>
-<tr>
-<td><code>_斜体2_</code></td>
-<td><em>斜体2</em></td>
-</tr>
-<tr>
-<td><code>**粗体1**</code></td>
-<td><strong>粗体1</strong></td>
-</tr>
-<tr>
-<td><code>__粗体2__</code></td>
-<td><strong>粗体2</strong></td>
-</tr>
-<tr>
-<td><code>这是一个 ~~删除线~~</code></td>
-<td>这是一个 <del>删除线</del></td>
-</tr>
-<tr>
-<td><code>***斜粗体1***</code></td>
-<td><strong><em>斜粗体1</em></strong></td>
-</tr>
-<tr>
-<td><code>___斜粗体2___</code></td>
-<td><strong><em>斜粗体2</em></strong></td>
-</tr>
-<tr>
-<td><code>***~~斜粗体删除线1~~***</code></td>
-<td><strong><em><del>斜粗体删除线1</del></em></strong></td>
-</tr>
-<tr>
-<td><code>~~***斜粗体删除线2***~~</code></td>
-<td><del><strong><em>斜粗体删除线2</em></strong></del></td>
-</tr>
-</tbody>
-</table>
-<pre><code>斜体、粗体、删除线可混合使用
-</code></pre><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p>基本格式：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![alt](URL title)</div></pre></td></tr></table></figure></p>
-<p>alt和title即对应HTML中的alt和title属性（都可省略）：</p>
-<ul>
-<li>alt表示图片显示失败时的替换文本</li>
-<li>title表示鼠标悬停在图片时的显示文本（注意这里要加引号）</li>
-</ul>
-<p>URL即图片的url地址，如果引用本仓库中的图片，直接使用<strong>相对路径</strong>就可了，如果引用其他github仓库中的图片要注意格式，即：<code>仓库地址/raw/分支名/图片路径</code>，如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif</div></pre></td></tr></table></figure></p>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><code>![baidu](http://www.baidu.com/img/bdlogo.gif &quot;百度logo&quot;)</code></td>
-<td><img src="http://www.baidu.com/img/bdlogo.gif" alt="baidu" title="百度logo"></td>
-</tr>
-<tr>
-<td>2</td>
-<td><code>![][foryou]</code></td>
-<td><img src="https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif" alt=""></td>
-</tr>
-</tbody>
-</table>
-<p>注意例2的写法使用了<strong>URL标识符</strong>的形式，在<a href="#链接">链接</a>一节有介绍。</p>
+        <p>这应该算是我第一次用md来写博客，平时写的也少，好像之前也就博客园上写过两篇，然后就没有了。我这人平时大都通过记笔记来学习的，大概觉得用笔写在本子上一遍，才能记得牢。<br>不过我这人太懒，记了以后，就很少翻阅了，也没有怎么总结，总是到用的时候再回过来翻看，笔记倒成了工具书了，长期下来并没有形成一个良好的知识体系，心里也慌慌的，不知道自己<br>都学了些什么，懂些什么。现在通过撰写博客，梳理自己的知识。    </p>
+<p>写这篇博客之前总是想着如何一次性写好，后来想想着实有点可笑，想这么多干嘛，先做了再说。边做边修改，哪有一次性就做好的，也没有通过想就能做好的。啰里八嗦这么多废话，下面开始正文。    </p>
+<h3 id="Markdown与HTML"><a href="#Markdown与HTML" class="headerlink" title="Markdown与HTML"></a>Markdown与HTML</h3><p>Markdown的格式语法只涵盖纯文本可以涵盖的范围。不在Markdown语法涵盖范围内的标签，都可以在文档范围内直接用HTML撰写。    </p>
+<p>然而，有些HTML的区块元素–如&lt;div&gt;、&lt;table&gt;、&lt;pre&gt;、&lt;p&gt;等标签，必须在前后加上空行与其他内容相隔开，还要求它们的开始标签和结尾标签不能用制表符和空格来缩进。    </p>
+<p>在Markdown文档里加一段HTML表格：    </p>
 <blockquote>
-<p>在文末有foryou的定义：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[foryou]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif</div></pre></td></tr></table></figure></p>
+<p>这是一个普通的段落。</p>
+<table><br><tr><br><td># Godd</td><td><br></td></tr><br></table>
+
+<p>这是一个普通的段落     </p>
 </blockquote>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="链接外部URL"><a href="#链接外部URL" class="headerlink" title="链接外部URL"></a>链接外部URL</h3><table>
-<thead>
-<tr>
-<th>#</th>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><code>[我的博客](http://blog.csdn.net/guodongxiaren &quot;悬停显示&quot;)</code></td>
-<td><a href="http://blog.csdn.net/guodongxiaren" title="悬停显示" target="_blank" rel="external">我的博客</a></td>
-</tr>
-<tr>
-<td>2</td>
-<td><code>[我的知乎][zhihu]</code></td>
-<td><a href="https://www.zhihu.com/people/jellywong" title="我的知乎，欢迎关注" target="_blank" rel="external">我的知乎</a></td>
-</tr>
-</tbody>
-</table>
-<p>语法2由两部分组成：</p>
-<ul>
-<li>第一部分使用两个中括号，[ ]里的标识符（本例中zhihu），可以是数字，字母等的组合，标识符上下对应就行了（<strong>姑且称之为URL标识符</strong>）</li>
-<li>第二部分标记实际URL。</li>
-</ul>
-<blockquote>
-<p>使用URL标识符能达到复用的目的，一般把全文所有的URL标识符统一放在文章末尾，这样看起来比较干净。</p>
-<blockquote>
-<p>URL标识符是我起的名字，不知道是否准确。囧。。</p>
-</blockquote>
-</blockquote>
-<h3 id="链接本仓库里的URL"><a href="#链接本仓库里的URL" class="headerlink" title="链接本仓库里的URL"></a>链接本仓库里的URL</h3><table>
-<thead>
-<tr>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>[我的简介](/example/profile.md)</code></td>
-<td><a href="/example/profile.md">我的简介</a></td>
-</tr>
-<tr>
-<td><code>[Book](./Book)</code></td>
-<td><a href="/Book">Book</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="图片链接"><a href="#图片链接" class="headerlink" title="图片链接"></a>图片链接</h3><p>给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。<br>直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。</p>
-<table>
-<thead>
-<tr>
-<th>#</th>
-<th>语法</th>
-<th style="text-align:center">效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td><code>[![weibo-logo]](http://weibo.com/linpiaochen)</code></td>
-<td style="text-align:center"><a href="http://weibo.com/linpiaochen" target="_blank" rel="external"><img src="/img/weibo.png" alt="weibo-logo" title="点击图片进入我的微博"></a></td>
-</tr>
-<tr>
-<td>2</td>
-<td><code>[![](/img/zhihu.png &quot;我的知乎，欢迎关注&quot;)][zhihu]</code></td>
-<td style="text-align:center"><a href="https://www.zhihu.com/people/jellywong" title="我的知乎，欢迎关注" target="_blank" rel="external"><img src="/img/zhihu.png" alt="" title="我的知乎，欢迎关注"></a></td>
-</tr>
-<tr>
-<td>3</td>
-<td><code>[![csdn-logo]][csdn]</code></td>
-<td style="text-align:center"><a href="http://blog.csdn.net/guodongxiaren" title="我的博客" target="_blank" rel="external"><img src="/img/csdn.png" alt="csdn-logo" title="我的CSDN博客"></a></td>
-</tr>
-</tbody>
-</table>
-<p>因为图片本身和链接本身都支持URL标识符的形式，所以图片链接也可以很简洁（见例3）。<br>注意，此时鼠标悬停时显示的文字是图片的title，而非链接本身的title了。</p>
-<blockquote>
-<p>本文URL标识符都放置于文末</p>
-</blockquote>
-<h3 id="锚点"><a href="#锚点" class="headerlink" title="锚点"></a>锚点</h3><p>其实呢，每一个标题都是一个锚点，和HTML的锚点（<code>#</code>）类似，比如我们 </p>
-<table>
-<thead>
-<tr>
-<th>语法</th>
-<th>效果</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>[回到顶部](#readme)</code></td>
-<td><a href="#readme">回到顶部</a></td>
-</tr>
-</tbody>
-</table>
-<p>不过要注意，标题中的英文字母都被转化为<strong>小写字母</strong>了。</p>
-<blockquote>
-<p>以前GitHub对中文支持的不好，所以中文标题不能正确识别为锚点，但是现在已经没问题啦！</p>
-</blockquote>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
-<li>昵称：果冻虾仁</li>
-</ul>
-<ul>
-<li>别名：隔壁老王</li>
-</ul>
-<ul>
-<li>英文名：Jelly</li>
-</ul>
-<h3 id="多级无序列表"><a href="#多级无序列表" class="headerlink" title="多级无序列表"></a>多级无序列表</h3><ul>
-<li>编程语言<ul>
-<li>脚本语言<ul>
-<li>Python</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><h4 id="一般效果"><a href="#一般效果" class="headerlink" title="一般效果"></a>一般效果</h4><p>就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。<br>面向对象的三个基本特征：</p>
-<ol>
-<li>封装</li>
-<li>继承</li>
-<li>多态</li>
-</ol>
-<h4 id="有序列表自动排序"><a href="#有序列表自动排序" class="headerlink" title="有序列表自动排序"></a>有序列表自动排序</h4><p>也可以在第一行指定<code>1.</code>，而接下来的几行用星号<code>*</code>（或者继续用数字1. ）就可以了，它会自动显示成2、3、4……。<br>面向对象的七大原则：</p>
-<ol>
-<li>开闭原则</li>
-</ol>
-<ul>
-<li>里氏转换原则</li>
-<li>依赖倒转原则</li>
-<li>接口隔离原则</li>
-<li>组合/聚合复用原则</li>
-<li>“迪米特”法则</li>
-<li>单一职责原则</li>
-</ul>
-<h4 id="多级有序列表"><a href="#多级有序列表" class="headerlink" title="多级有序列表"></a>多级有序列表</h4><p>和无序列表一样，有序列表也有多级结构：  </p>
-<ol>
-<li>这是一级的有序列表，数字1还是1<ol>
-<li>这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字<ol>
-<li>这是三级的有序列表，数字在显示的时候变成了英文字母<ol>
-<li>四级的有序列表显示效果，就不再变化了，依旧是英文字母</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-</li>
-</ol>
-<h3 id="复选框列表"><a href="#复选框列表" class="headerlink" title="复选框列表"></a>复选框列表</h3><ul>
-<li>[x] 需求分析</li>
-<li>[x] 系统设计</li>
-<li>[x] 详细设计</li>
-<li>[ ] 编码</li>
-<li>[ ] 测试</li>
-<li>[ ] 交付</li>
-</ul>
-<p>您可以使用这个功能来标注某个项目各项任务的完成情况。</p>
-<blockquote>
-<p>Tip:</p>
-<blockquote>
-<p>在GitHub的<strong>issue</strong>中使用该语法是可以实时点击复选框来勾选或解除勾选的，而无需修改issue原文。</p>
-</blockquote>
-</blockquote>
-<h2 id="块引用"><a href="#块引用" class="headerlink" title="块引用"></a>块引用</h2><h3 id="常用于引用文本"><a href="#常用于引用文本" class="headerlink" title="常用于引用文本"></a>常用于引用文本</h3><h4 id="文本摘自《深入理解计算机系统》P27"><a href="#文本摘自《深入理解计算机系统》P27" class="headerlink" title="文本摘自《深入理解计算机系统》P27"></a>文本摘自《深入理解计算机系统》P27</h4><p>　令人吃惊的是，在哪种字节顺序是合适的这个问题上，人们表现得非常情绪化。实际上术语“little endian”（小端）和“big endian”（大端）出自Jonathan Swift的《格利佛游记》一书，其中交战的两个派别无法就应该从哪一端打开一个半熟的鸡蛋达成一致。因此，争论沦为关于社会政治的争论。只要选择了一种规则并且始终如一的坚持，其实对于哪种字节排序的选择都是任意的。</p>
-<blockquote>
-<p><strong>“端”（endian）的起源</strong><br>以下是Jonathan Swift在1726年关于大小端之争历史的描述：<br>“……下面我要告诉你的是，Lilliput和Blefuscu这两大强国在过去36个月里一直在苦战。战争开始是由于以下的原因：我们大家都认为，吃鸡蛋前，原始的方法是打破鸡蛋较大的一端，可是当今的皇帝的祖父小时候吃鸡蛋，一次按古法打鸡蛋时碰巧将一个手指弄破了，因此他的父亲，当时的皇帝，就下了一道敕令，命令全体臣民吃鸡蛋时打破较小的一端，违令者重罚。”</p>
-</blockquote>
-<h3 id="块引用有多级结构"><a href="#块引用有多级结构" class="headerlink" title="块引用有多级结构"></a>块引用有多级结构</h3><blockquote>
-<p>数据结构</p>
-<blockquote>
-<p>树</p>
-<blockquote>
-<p>二叉树</p>
-<blockquote>
-<p>平衡二叉树</p>
-<blockquote>
-<p>满二叉树</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-<h2 id="代码高亮"><a href="#代码高亮" class="headerlink" title="代码高亮"></a>代码高亮</h2><p>在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。<br><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[]args)</span></span>&#123;&#125; <span class="comment">//Java</span></div></pre></td></tr></table></figure></p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">int</span> argc, <span class="keyword">char</span> *argv[])</span> <span class="comment">//C</span></span></div></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="string">"hello GitHub"</span> <span class="comment">#Bash</span></div></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.getElementById(<span class="string">"myH1"</span>).innerHTML=<span class="string">"Welcome to my Homepage"</span>; <span class="comment">//javascipt</span></div></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">string</span> &amp;<span class="keyword">operator</span>+(<span class="keyword">const</span> <span class="built_in">string</span>&amp; A,<span class="keyword">const</span> <span class="built_in">string</span>&amp; B) <span class="comment">//cpp</span></div></pre></td></tr></table></figure>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
-<thead>
-<tr>
-<th>表头1</th>
-<th>表头2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>表格单元</td>
-<td>表格单元</td>
-<td></td>
-</tr>
-<tr>
-<td>表格单元</td>
-<td>表格单元</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>表头1</th>
-<th>表头2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>表格单元</td>
-<td>表格单元</td>
-</tr>
-<tr>
-<td>表格单元</td>
-<td>表格单元</td>
-</tr>
-</tbody>
-</table>
-<h3 id="对齐"><a href="#对齐" class="headerlink" title="对齐"></a>对齐</h3><p>表格可以指定对齐方式</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">左对齐</th>
-<th style="text-align:center">居中</th>
-<th style="text-align:right">右对齐</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">col 3 is</td>
-<td style="text-align:center">some wordy text</td>
-<td style="text-align:right">$1600</td>
-</tr>
-<tr>
-<td style="text-align:left">col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td style="text-align:left">zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
-</tr>
-</tbody>
-</table>
-<h3 id="混合其他语法"><a href="#混合其他语法" class="headerlink" title="混合其他语法"></a>混合其他语法</h3><p>表格单元中的内容可以和其他大多数GFM语法配合使用，如：  </p>
-<h4 id="使用普通文本的删除线，斜体等效果"><a href="#使用普通文本的删除线，斜体等效果" class="headerlink" title="使用普通文本的删除线，斜体等效果"></a>使用普通文本的删除线，斜体等效果</h4><table>
-<thead>
-<tr>
-<th>名字</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Help</td>
-<td><del>Display the</del> help window.</td>
-</tr>
-<tr>
-<td>Close</td>
-<td><em>Closes</em> a window</td>
-</tr>
-</tbody>
-</table>
-<h4 id="表格中嵌入图片（链接）"><a href="#表格中嵌入图片（链接）" class="headerlink" title="表格中嵌入图片（链接）"></a>表格中嵌入图片（链接）</h4><p>其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。</p>
-<table>
-<thead>
-<tr>
-<th>图片</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><img src="http://www.baidu.com/img/bdlogo.gif" alt="baidu" title="百度logo"></td>
-<td>百度</td>
-</tr>
-</tbody>
-</table>
-<h2 id="表情"><a href="#表情" class="headerlink" title="表情"></a>表情</h2><p>Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。</p>
-<p>比如<code>:blush:</code>，可以显示:blush:。</p>
-<p>具体每一个表情的符号码，可以查询GitHub的官方网页<a href="http://www.emoji-cheat-sheet.com" target="_blank" rel="external">http://www.emoji-cheat-sheet.com</a>。</p>
-<p>但是这个网页每次都打开<strong>奇慢</strong>。。所以我整理到了本repo中，大家可以直接在此查看<a href="./emoji.md">emoji</a>。</p>
-<h2 id="diff语法"><a href="#diff语法" class="headerlink" title="diff语法"></a>diff语法</h2><p>版本控制的系统中都少不了diff的功能，即展示一个文件内容的增加与删除。<br>GFM中可以显示的展示diff效果。使用绿色表示新增，红色表示删除。</p>
-<p>其语法与代码高亮类似，只是在三个反引号后面写diff，<br>并且其内容中，以 <code>+</code>开头表示新增，<code>-</code>开头表示删除。</p>
 <p>效果如下：</p>
-<figure class="highlight diff"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="addition">+ 鸟宿池边树，僧敲月下门</span></div><div class="line"><span class="deletion">- 鸟宿池边树，僧推月下门</span></div></pre></td></tr></table></figure>
-<hr>
+<p>这是一个普通的段落。    </p>
+<table><br>  <tr><br>    <td># Godd</td><br>  </tr><br></table>    
+
+<p>这是一个普通的段落    </p>
+<p>需要注意的是，在HTML里的Markdown语法并不会被解析。HTML的行内标签如：&lt;span&gt;、&lt;cite&gt;、&lt;del&gt;可以在Markdown的段落、列表或者标题里随意使用，甚至可以不用Markdown格式，直接用HTML标签直接写，比如用&lt;a&gt;,&lt;img&gt;标签，而不用Markdown提供的链接或者图像标签语法。    </p>
+<p>Markdown段落之间的换行，段落之间必须空一行。段落内换行，可通过连续两个空格以上再加上回车来控制。    </p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>Markdown用1-6个 # 来表示1-6级标题，如下：    </p>
+<blockquote>
+<h1 id="这是一级标题H1"><a href="#这是一级标题H1" class="headerlink" title="这是一级标题H1"></a>这是一级标题H1</h1><h2 id="这是二级标题H2"><a href="#这是二级标题H2" class="headerlink" title="这是二级标题H2"></a>这是二级标题H2</h2><h3 id="这是三级标题H3"><a href="#这是三级标题H3" class="headerlink" title="这是三级标题H3"></a>这是三级标题H3</h3><h4 id="这是四级标题H4"><a href="#这是四级标题H4" class="headerlink" title="这是四级标题H4"></a>这是四级标题H4</h4><h5 id="这是五级标题H5"><a href="#这是五级标题H5" class="headerlink" title="这是五级标题H5"></a>这是五级标题H5</h5><h6 id="这是六级标题H6"><a href="#这是六级标题H6" class="headerlink" title="这是六级标题H6"></a>这是六级标题H6</h6></blockquote>
+<p>为了美观，也可以再前后都加上等数量的 # ，如下：    </p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1></blockquote>
+<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><p>Markdown标记区块引用的是 &gt; 的引用方式，可以在每行的前面都加 &gt; ，如果你懒，也可以只在每段的段首加 &gt; ，如下：    </p>
+<blockquote>
+<p>这是区块的引用，<br>可以每行的前面都加，<br>也可以只在段首加    </p>
+</blockquote>
+<p>段首加的如下：</p>
+<blockquote>
+<p>这是第一段，如果文字太长，<br>  第二行你可以通过缩进来让显示的更好看，当然你也可以不缩进</p>
+<p>这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。</p>
+</blockquote>
+<p>区块引用可以嵌套，只需根据层次加上不同数量的 &gt; ，如下：</p>
+<blockquote>
+<p>这是第一层，下面就要开始嵌套了<br>这里还是第一层</p>
+<blockquote>
+<p>这是第二层了，开始嵌套了<br>我又回到第一层了<br>哈哈</p>
+</blockquote>
+</blockquote>
+<p>区块引用内还可以使用别的Markdown语法，如下：</p>
+<blockquote>
+<h4 id="标题-1"><a href="#标题-1" class="headerlink" title="标题"></a>标题</h4><ol>
+<li>这是列表第一行</li>
+<li>这是列表第二行</li>
+</ol>
+<p>下面来个代码的例子</p>
+<p>return(shell_exec(“echo $input | $markdown_script”);)</p>
+</blockquote>
+<p>由于时间的缘故，暂时先记录到这，下次再接着写。</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://happysiva.github.io/gitrepository/2017/05/22/Markdown语法学习/" data-id="cj3187rk400013plokkvmzzcs" class="article-share-link">Share</a>
+      <a data-url="https://happysiva.github.io/gitrepository/2017/05/22/Markdown语法学习/" data-id="cj318ao0b00004rlos6qvc2py" class="article-share-link">Share</a>
       
       
     </footer>
@@ -572,7 +185,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://happysiva.github.io/gitrepository/2017/05/20/hello-world/" data-id="cj3187rjz00003ploido26kap" class="article-share-link">Share</a>
+      <a data-url="https://happysiva.github.io/gitrepository/2017/05/20/hello-world/" data-id="cj318ao0g00014rlo0rpahfre" class="article-share-link">Share</a>
       
       
     </footer>
