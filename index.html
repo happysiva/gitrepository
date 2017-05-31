@@ -329,8 +329,7 @@
 <p>在Markdown文档里加一段HTML表格：    </p>
 <blockquote>
 <p>这是一个普通的段落。</p>
-<table><br><tr><br><td># Godd</td><td><br></td></tr><br></table>
-
+<p>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;td&gt;# Godd&lt;td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;</p>
 <p>这是一个普通的段落     </p>
 </blockquote>
 <p>效果如下：</p>
@@ -342,34 +341,36 @@
 <p>Markdown段落之间的换行，段落之间必须空一行。段落内换行，可通过连续两个空格以上再加上回车来控制。    </p>
 <h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>Markdown用1-6个 # 来表示1-6级标题，如下：    </p>
 <blockquote>
-<h1 id="这是一级标题H1"><a href="#这是一级标题H1" class="headerlink" title="这是一级标题H1"></a>这是一级标题H1</h1><h2 id="这是二级标题H2"><a href="#这是二级标题H2" class="headerlink" title="这是二级标题H2"></a>这是二级标题H2</h2><h3 id="这是三级标题H3"><a href="#这是三级标题H3" class="headerlink" title="这是三级标题H3"></a>这是三级标题H3</h3><h4 id="这是四级标题H4"><a href="#这是四级标题H4" class="headerlink" title="这是四级标题H4"></a>这是四级标题H4</h4><h5 id="这是五级标题H5"><a href="#这是五级标题H5" class="headerlink" title="这是五级标题H5"></a>这是五级标题H5</h5><h6 id="这是六级标题H6"><a href="#这是六级标题H6" class="headerlink" title="这是六级标题H6"></a>这是六级标题H6</h6></blockquote>
+<p>#  这是一级标题H1</p>
+<p>##  这是二级标题H2</p>
+<p>###  这是三级标题H3</p>
+<p>####  这是四级标题H4</p>
+<p>#####  这是五级标题H5</p>
+<p>######  这是六级标题H6</p>
+</blockquote>
 <p>为了美观，也可以再前后都加上等数量的 # ，如下：    </p>
 <blockquote>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1></blockquote>
+<p>#  一级标题  #</p>
+</blockquote>
 <h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><p>Markdown标记区块引用的是 &gt; 的引用方式，可以在每行的前面都加 &gt; ，如果你懒，也可以只在每段的段首加 &gt; ，如下：    </p>
 <blockquote>
-<p>这是区块的引用，<br>可以每行的前面都加，<br>也可以只在段首加    </p>
+<p>&gt;这是区块的引用，<br>&gt;可以每行的前面都加，<br>&gt;也可以只在段首加    </p>
 </blockquote>
 <p>段首加的如下：</p>
 <blockquote>
-<p>这是第一段，如果文字太长，<br>  第二行你可以通过缩进来让显示的更好看，当然你也可以不缩进</p>
-<p>这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。</p>
+<p>&gt;这是第一段，如果文字太长，<br>  第二行你可以通过缩进来让显示的更好看，当然你也可以不缩进</p>
+<p>&gt;这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。这是第二段，它的内容会很长很长，然而第二行不缩进也是可以的。</p>
 </blockquote>
 <p>区块引用可以嵌套，只需根据层次加上不同数量的 &gt; ，如下：</p>
 <blockquote>
-<p>这是第一层，下面就要开始嵌套了<br>这里还是第一层</p>
+<p>&gt;这是第一层，下面就要开始嵌套了<br>&gt;这里还是第一层</p>
 <blockquote>
-<p>这是第二层了，开始嵌套了<br>我又回到第一层了<br>哈哈</p>
+<p>&gt;&gt;这是第二层了，开始嵌套了<br>&gt;我又回到第一层了<br>&gt;哈哈</p>
 </blockquote>
 </blockquote>
 <p>区块引用内还可以使用别的Markdown语法，如下：</p>
 <blockquote>
-<h4 id="标题-1"><a href="#标题-1" class="headerlink" title="标题"></a>标题</h4><ol>
-<li>这是列表第一行</li>
-<li>这是列表第二行</li>
-</ol>
-<p>下面来个代码的例子</p>
-<p>return(shell_exec(“echo $input | $markdown_script”);)</p>
+<p>&gt; #### 标题<br>&gt;<br>&gt; 1.  这是列表第一行<br>&gt; 2.  这是列表第二行<br>&gt;<br>&gt; 下面来个代码的例子<br>&gt;<br>&gt;    return(shell_exec(“echo $input | $markdown_script”);)</p>
 </blockquote>
 <p>由于时间的缘故，暂时先记录到这，下次再接着写。</p>
 
